@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>A Birthday Surprise for Sree Lakshmi!</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="lock-container" id="lock-screen">
+      <div class="lock-box">
+        <div class="lock-icon">🎁</div>
+
+        <h1>Happy Birthday, Sree Lakshmi!</h1>
+        <p>I've made a little something for you, but it's locked away.</p>
+        <p>You'll need our "magic word" to open it...</p>
+
+        <form id="lock-form" class="lock-form">
+          <label for="magic_word"
+            >Enter your nickname</label
+          >
+
+          <input
+            type="text"
+            id="magic_word"
+            name="magic_word"
+            required
+            autocomplete="off"
+          />
+          <button type="submit">Unlock Your Gift</button>
+        </form>
+
+        <p class="error-message" id="error-message"></p>
+      </div>
+    </div>
+
+    <main class="container" id="gift-screen">
+      <header>
+        <h1>Happy Birthday, My Love! ❤️</h1>
+        <p class="subtitle">You found the magic word! You're in.</p>
+      </header>
+
+      <section class="message-card">
+        <h2>To My Queen ,</h2>
+        <p>
+          Every day with you is a gift, but today is extra special. I hope your
+          birthday is as beautiful, bright, and wonderful as you are. Thank you
+          for filling my life with so much joy and laughter. Here's to another
+          year of adventures together!
+        </p>
+        <p class="signature">With all my love,</p>
+        <p class="signature"><a href="https://www.instagram.com/iamvivekvb/">click to reveal!!!</a></p>
+      </section>
+
+      <section class="gallery">
+        <h2>Our Favorite Moments</h2>
+        <div class="gallery-grid">
+          <img src="./img/6.jpg" alt="A lovely memory" />
+          <img src="./img/7.jpg" alt="Another great time" />
+          <img src="./img/8.jpg" alt="Us being silly" />
+          <img src="./img/5.jpg" alt="That beautiful trip" />
+          <img src="./img/4.jpg" alt="" srcset="">
+          <img src="./img/3.jpg" alt="">
+          <img src="./img/2.jpg" alt="">
+          <img src="./img/1.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="reasons-card">
+        <h2>A Few Reasons Why I Love You...</h2>
+        <ul>
+          <li>Your infectious laugh.</li>
+          <li>The way you care so deeply for the people around you.</li>
+          <li>Your incredible strength and determination.</li>
+         <li>Your amazing sense of adventure!</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>Made with ❤️ for you &copy; <span id="current-year"> @iamvivekvb</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
